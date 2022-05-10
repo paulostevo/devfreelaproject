@@ -1,0 +1,17 @@
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\bin\Debug\net5.0\DevFreela.Application.deps.json
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\bin\Debug\net5.0\DevFreela.Application.dll
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\bin\Debug\net5.0\ref\DevFreela.Application.dll
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\bin\Debug\net5.0\DevFreela.Application.pdb
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\bin\Debug\net5.0\DevFreela.Core.dll
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\bin\Debug\net5.0\DevFreela.Infrasctructure.dll
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\bin\Debug\net5.0\DevFreela.Infrasctructure.pdb
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\bin\Debug\net5.0\DevFreela.Core.pdb
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.csproj.AssemblyReference.cache
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.AssemblyInfoInputs.cache
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.AssemblyInfo.cs
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.csproj.CoreCompileInputs.cache
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.csproj.CopyComplete
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.dll
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\obj\Debug\net5.0\ref\DevFreela.Application.dll
+C:\Dev\DevFreela2022\DevFreela\DevFreela.Application\obj\Debug\net5.0\DevFreela.Application.pdb
