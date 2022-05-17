@@ -1654,6 +1654,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Dapper": "2.0.78",
           "DevFreela.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.3",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.3",

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "DevFreela.Infrasctructure/1.0.0": {
         "dependencies": {
+          "Dapper": "2.0.78",
           "DevFreela.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.3",
           "Microsoft.EntityFrameworkCore.Design": "5.0.3",
@@ -17,6 +18,14 @@
         },
         "runtime": {
           "DevFreela.Infrasctructure.dll": {}
+        }
+      },
+      "Dapper/2.0.78": {
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.78.45418"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -1082,6 +1091,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
+      "path": "dapper/2.0.78",
+      "hashPath": "dapper.2.0.78.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
