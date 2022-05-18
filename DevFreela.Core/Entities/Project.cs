@@ -53,7 +53,7 @@ namespace DevFreela.Core.Entities
             }
         }
 
-        public void Finished()
+        public void Finish()
         {
             if (Status == ProjectStatusEnum.InProgress)
             {

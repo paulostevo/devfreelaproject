@@ -3,23 +3,21 @@ using DevFreela.Core.DTO;
 using DevFreela.Core.Repositories;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DevFreela.Infrasctructure.Persistence.Repositories
+namespace DevFreela.Infrastructure.Persistence.Repositories
 {
     public class SkillRepository : ISkillRepository
     {
-        public readonly string _connectionString;
+        private readonly string _connectionString;
         public SkillRepository(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("DevFreelaCs");
         }
 
-
-        public async Task<List<SkillDTO>> GetAll()
+        public async Task<List<SkillDTO>> GetAllAsync()
         {
             using (var sqlConnection = new SqlConnection(_connectionString))
             {
@@ -32,7 +30,9 @@ namespace DevFreela.Infrasctructure.Persistence.Repositories
                 return skills.ToList();
             }
 
+            // COM EF CORE
             //var skills = _dbContext.Skills;
+
             //var skillsViewModel = skills
             //    .Select(s => new SkillViewModel(s.Id, s.Description))
             //    .ToList();

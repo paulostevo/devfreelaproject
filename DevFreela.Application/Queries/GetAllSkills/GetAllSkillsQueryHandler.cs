@@ -27,7 +27,7 @@ namespace DevFreela.Application.Queries.GetAllSkills
         {
            
 
-            return await _skillRepository.GetAll();
+            return await _skillRepository.GetAllAsync();
 
             
         }
