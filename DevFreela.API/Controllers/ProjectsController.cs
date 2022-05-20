@@ -61,17 +61,6 @@ namespace DevFreela.API.Controllers
         public async Task<IActionResult> Post([FromBody] CreateProjectCommand command)
         {
 
-            if (!ModelState.IsValid)
-            {
-                var messages = ModelState
-                               .SelectMany(ms => ms.Value.Errors)
-                               .Select(e => e.ErrorMessage)
-                               .ToList();
-
-                return BadRequest(messages);
-
-            }
-
             //var id = _projectService.Create(inputModel);
             var id = await _mediator.Send(command);
 
