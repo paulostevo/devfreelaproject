@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+R1j0H/r1iV4z6H9zpz+5pXa8UTnOP8YbkvUQ1zIOoQ/msQF/2D6Jl1eJnbTCqbZTqFGyjtLsSZDqctbhnXdUw==",
+  "dgSpecHash": "zAK+Y1ftF3PDGjSmt3r8yhUNSVzMGrr7PrDnlmwRMsOSmmDJEXOR3VOE8hbJpv1Q0Js+v3XyAZpJfeyFFAqaRg==",
   "success": true,
   "projectFilePath": "C:\\Dev\\DevFreela2022\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paulo\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\paulo\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
+    "C:\\Users\\paulo\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.5.1\\fluentvalidation.aspnetcore.9.5.1.nupkg.sha512",
+    "C:\\Users\\paulo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.5.1\\fluentvalidation.dependencyinjectionextensions.9.5.1.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

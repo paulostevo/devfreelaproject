@@ -68,3 +68,6 @@ C:\Dev\DevFreela2022\DevFreela\DevFreela.API\bin\Debug\net5.0\runtimes\win\lib\n
 C:\Dev\DevFreela2022\DevFreela\DevFreela.API\bin\Debug\net5.0\Dapper.dll
 C:\Dev\DevFreela2022\DevFreela\DevFreela.API\bin\Debug\net5.0\MediatR.dll
 C:\Dev\DevFreela2022\DevFreela\DevFreela.API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Dev\DevFreela2022\DevFreela\DevFreela.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Dev\DevFreela2022\DevFreela\DevFreela.API\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Dev\DevFreela2022\DevFreela\DevFreela.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
