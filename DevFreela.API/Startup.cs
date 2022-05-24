@@ -2,6 +2,8 @@ using DevFreela.API.Filters;
 using DevFreela.Application.Commands.CreateProject;
 using DevFreela.Application.Validators;
 using DevFreela.Core.Repositories;
+using DevFreela.Core.Services;
+using DevFreela.Infrasctructure.Auth;
 using DevFreela.Infrasctructure.Persistence;
 using DevFreela.Infrastructure.Persistence.Repositories;
 using FluentValidation.AspNetCore;
@@ -38,6 +40,7 @@ namespace DevFreela.API
             services.AddScoped<ISkillRepository, SkillRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IProjectRepository, ProjectRepository>();
+            services.AddScoped<IAuthService, AuthService>();
 
             services.AddMediatR(typeof(CreateProjectCommand));
 
