@@ -1,4 +1,5 @@
 ﻿using DevFreela.Core.Entities;
+using DevFreela.Core.Repositories;
 using DevFreela.Infrasctructure.Persistence;
 using MediatR;
 using System;
@@ -12,35 +13,19 @@ namespace DevFreela.Application.Commands.CreateProject
 {
     public class CreateProjectCommandHandler : IRequestHandler<CreateProjectCommand, int>
     {
-        private readonly DevFreelaDbContext _dbContext;
-
-        public CreateProjectCommandHandler(DevFreelaDbContext dbContext)
+        private readonly IProjectRepository _projectRepository;
+        public CreateProjectCommandHandler(IProjectRepository projectRepository)
         {
-            _dbContext = dbContext;
+            _projectRepository = projectRepository;
         }
+
         public async Task<int> Handle(CreateProjectCommand request, CancellationToken cancellationToken)
         {
-            try
-            {
-                var userClient = _dbContext.Users.SingleOrDefault(u => u.Id == request.IdClient);
-                var userFreelancer = _dbContext.Users.SingleOrDefault(u => u.Id == request.IdFreelancer);
+            var project = new Project(request.Title, request.Description, request.IdClient, request.IdFreelancer, request.TotalCost);
 
-                if (userClient != null && userFreelancer != null)
-                {
-                    var project = new Project(request.Title, request.Description, request.IdClient, request.IdFreelancer, request.TotalCost);
-                    await _dbContext.Projects.AddAsync(project);
-                    await _dbContext.SaveChangesAsync();
-                    return project.Id;                   // OUTRA OPÇÃO DE RETORNO Task.FromResult(project.Id);
-                }
+            await _projectRepository.AddAsync(project);
 
-
-            }
-            catch (Exception e)
-            {
-                return 0;
-            }
-
-            return 0;
+            return project.Id;
         }
     }
 }
