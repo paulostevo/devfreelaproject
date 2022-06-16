@@ -24,7 +24,7 @@ namespace DevFreela.Application.Commands.LoginUser
 
         public async Task<LoginUserViewModel> Handle(LoginUserCommand request, CancellationToken cancellationToken)
         {
-            // User o mesmo algorítimo para criar o hash dessa senha
+            // Usar o mesmo algorítimo para criar o hash dessa senha
             var passwordHash = _authService.ComputeSha256Hash(request.Password);
 
             // Buscar no meu BD um User que tenha o meu email e senha em formato hash
